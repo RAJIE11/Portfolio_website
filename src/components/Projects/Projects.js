@@ -22,7 +22,7 @@ function Projects() {
             <ProjectCard
               imgPath={architech}
               isBlog={false}
-              title="architech"
+              title="Architech website "
               description="This is simple static web page of architech. It contains menu bar and little bit of css animation for image hover.Html and css js used to create the website"
               ghLink="https://github.com/RAJIE11/architect-website"
             />
@@ -32,7 +32,7 @@ function Projects() {
             <ProjectCard
               imgPath={crypto}
               isBlog={false}
-              title="crypto"
+              title="crypto Tracker website"
               description="The cryptocurrency website is used to track the variety of coins and also gives data of each coins current price.Then it also gives the market price of each coins. Reactjs is used to create this page and firebase is used for deplyoment."
               ghLink="https://github.com/RAJIE11/crypto-tracker"
               demoLink="https://crypto-project-react.web.app/"
@@ -43,8 +43,19 @@ function Projects() {
             <ProjectCard
               imgPath={newsapp}
               isBlog={false}
-              title="Bits-0f-C0de"
+              title="AI New Web Application"
               description="The Headlines Hint is a conversational voice controlled React News Application. You can find latest news by categories, terms and sources. I've used Alan AI to embed the contextual voice assistant into the application UI. It's easy to use and lets you control most of the actions just by your voice."
+              ghLink="https://github.com/RAJIE11/AI-news-application/tree/main/News-app"
+              demoLink="https://the-headline-hints.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={newsapp}
+              isBlog={false}
+              title="Ecommerce website"
+              description="This is the Ecommerce web application  Built using Reactjs to manage the state context and user interface , Nextjs for server side rendering .sanity used to manage the context and stripe for payment integration."
               ghLink="https://github.com/RAJIE11/AI-news-application/tree/main/News-app"
               demoLink="https://the-headline-hints.netlify.app/"
             />
