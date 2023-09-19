@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import architech from "../../Assets/Projects/architech.png";
 import crypto from "../../Assets/Projects/crypto.png";
 import newsapp from "../../Assets/Projects/newsapp.png";
+import ecommerce from '../../Assets/Projects/ecommerce.png';
 
 function Projects() {
   return (
@@ -52,12 +53,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={newsapp}
+              imgPath={ecommerce}
               isBlog={false}
               title="Ecommerce website"
               description="This is the Ecommerce web application  Built using Reactjs to manage the state context and user interface , Nextjs for server side rendering .sanity used to manage the context and stripe for payment integration."
-              ghLink="https://github.com/RAJIE11/AI-news-application/tree/main/News-app"
-              demoLink="https://the-headline-hints.netlify.app/"
+              ghLink="https://github.com/RAJIE11/Ecommerce_website"
+              demoLink="https://ecommerce-website-nsvnr38ti-rajie11.vercel.app/"
             />
           </Col>
  
