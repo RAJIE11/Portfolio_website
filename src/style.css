@@ -1,3 +1,7 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,500&family=Roboto+Slab:wght@800&display=swap');
+
+
 html {
   --section-background-color: linear-gradient(
     to bottom left,
@@ -334,6 +338,11 @@ button:focus {
   padding-top: 50px;
   font-size: 1.2em !important;
   text-align: left;
+}
+
+.heading-emoji h1{
+  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Roboto Slab', serif;
 }
 
 .home-about-social {
