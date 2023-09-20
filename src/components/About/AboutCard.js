@@ -2,10 +2,10 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import { Row, Col } from "react-bootstrap";
 import {
-  AiOutlineMail,
+  AiOutlineMail, AiFillGithub 
   
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaXTwitter } from "react-icons/fa";
 
 function AboutCard() {
   return (
@@ -20,6 +20,7 @@ function AboutCard() {
           <Col md={12} className="home-about-social">
             <p style={{ textAlign: "justify", fontSize:"23px" }}>I'm currently looking for full-time Software Engineering ! If you know of any positions available or if you have any questions, please feel free to contact me at below option.</p>
             <ul className="home-about-social-links">
+              
               <li className="social-icons">
                 <a
                   href="mailto:rajierajie465@gmail.com"
@@ -39,6 +40,27 @@ function AboutCard() {
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
+                </a>
+              </li>
+              <li className="social-icons">
+              <a
+                href="https://github.com/RAJIE11"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiFillGithub />
+              </a>
+            </li>
+
+              <li className="social-icons">
+                <a
+                href="https://twitter.com/__Rajie__?t=FiuMt05Eq0GdAMi15rwQNw&s=08"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaXTwitter />
                 </a>
               </li>
               
