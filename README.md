@@ -1,5 +1,5 @@
 <h1 align="center" id="title">Portfolio-Website</h1>
-<p align="center"><img src="![image](https://github.com/RAJIE11/Portfolio_website/assets/74948755/0cf8fdae-61ca-4c82-9a48-36c4bffd5045)" alt="project-image"></p>
+![image](https://github.com/RAJIE11/Portfolio_website/assets/74948755/fc55ab5a-16a8-48dc-b39b-b23bb3ee3b48)
 
 <p id="description">My personal portfolio website created by using js library Reactjs and Material -UI Netlify.</p>
 
